@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class Boba {
+
+    //parameters
+    private String name;
+    private boolean vegan;
+    private int medianPrice;
+    private double distance;
+    private int options;
+
+    public Boba(String name, boolean vegan, int medanPrice, double distance, int options) {
+        this.name = name;
+        this.vegan = vegan;
+        this.medianPrice = medianPrice;
+        this.distance = distance;
+        this.options = options;
+    }
+
+
+}
