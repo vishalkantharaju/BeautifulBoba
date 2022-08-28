@@ -5,7 +5,7 @@ public class Boba {
     //parameters
     private String name;
     private boolean vegan;
-    private int medianPrice;
+    private double medianPrice;
     private double distance;
     private double rating;
     private boolean milkFree;
@@ -13,7 +13,7 @@ public class Boba {
     private boolean hot;
     private int calories;
 
-    public Boba(String name, boolean vegan, int medianPrice, double distance, double rating, boolean milkFree, boolean noCaffeine, boolean hot, int calories) {
+    public Boba(String name, boolean vegan, double medianPrice, double distance, double rating, boolean milkFree, boolean noCaffeine, boolean hot, int calories) {
         this.name = name;
         this.vegan = vegan;
         this.medianPrice = medianPrice;
@@ -24,10 +24,42 @@ public class Boba {
         this.hot = hot;
         this.calories = calories;
     }
-    
+
+    public boolean getVegan() {
+        return vegan;
+    }
+
+    public double getMedianPrice() {
+        return medianPrice;
+    }
+
+    public double getDistance() {
+        return distance;
+    }
+
+    public double getRating() {
+        return rating;
+    }
+
+    public boolean getMilkFree() {
+        return milkFree;
+    }
+
+    public boolean noCaffeine() {
+        return noCaffeine;
+    }
+
+    public boolean getHot() {
+        return hot;
+    }
+
+    public double getCalories() {
+        return calories;
+    }
+
     @Override
     public String toString() {
-        return "Name: " + name;
+        return name;
     }
 
 
