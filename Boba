@@ -36,10 +36,10 @@ public class Boba {
     }
 
     public boolean getDairyFree() {
-        return milkFree;
+        return dairyFree;
     }
 
-    public boolean noCaffeine() {
+    public boolean getNoCaffeine() {
         return noCaffeine;
     }
 
