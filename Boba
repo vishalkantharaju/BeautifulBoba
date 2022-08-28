@@ -11,8 +11,9 @@ public class Boba {
     private boolean milkFree;
     private boolean noCaffeine;
     private boolean hot;
+    private int calories;
 
-    public Boba(String name, boolean vegan, int medianPrice, double distance, double rating, boolean milkFree, boolean noCaffeine, boolean hot) {
+    public Boba(String name, boolean vegan, int medianPrice, double distance, double rating, boolean milkFree, boolean noCaffeine, boolean hot, int calories) {
         this.name = name;
         this.vegan = vegan;
         this.medianPrice = medianPrice;
@@ -21,11 +22,13 @@ public class Boba {
         this.milkFree = milkFree;
         this.noCaffeine = noCaffeine;
         this.hot = hot;
+        this.calories = calories;
     }
     
     @Override
     public String toString() {
-        return name;
+        return "Name: " + name + "\nVegan: " + vegan + "\nMedian Price:" + medianPrice + "\nDistance: " + distance + "\nRating: " + rating + "Milk Free: " + milkFree + 
+        "\nNo Caffeine: " + "Hot: " hot + "Calories: " + calories;
     }
 
 
