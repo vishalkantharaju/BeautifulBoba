@@ -1,2 +1,2 @@
-# Boba
-Boba (refer to title)
+# Boba Scanner
+Checks for boba near you! (Helps check prices and stuff)

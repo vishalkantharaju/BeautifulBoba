@@ -35,4 +35,3 @@ for line in menuItems:
 with pd.ExcelWriter("Boba Prices.xlsx") as writer:  
     df.to_excel(writer, sheet_name='GongCha')
 
-
