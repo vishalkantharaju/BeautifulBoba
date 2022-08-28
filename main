@@ -5,7 +5,26 @@ public class Main {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
+        String ans;
         
-        System.out.println("Hello! Looking for some boba but having trouble finding a good spot?");
+        
+        ArrayList<Boba> shops = new ArrayList<Boba>();
+        ArrayList<Boba> sort;
+        
+        for(int i = 0; i < shops.size(); i++) {
+            sort.add(shops.get(i));
+        }
+        
+        System.out.println("Hello! Looking for a boba shop? \nWe can help you with that! 
+        Our program will help you narrow down which of the nearby boba shops are perfect for you, 
+        so you can spend less time choosing a place and more time drinking some beautiful boba.");
+        System.out.println("Let's get started! First off, are you looking for vegan boba? \nType Y for yes or N for no, and then click enter.");
+        
+        ans = input.nextLine();
+        if(ans.equals("Y") {
+            for(int i = 0; i<shops.sort(); i++) {
+
+            }
+        }
     }
 }
