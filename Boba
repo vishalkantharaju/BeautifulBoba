@@ -27,8 +27,7 @@ public class Boba {
     
     @Override
     public String toString() {
-        return "Name: " + name + "\nVegan: " + vegan + "\nMedian Price:" + medianPrice + "\nDistance: " + distance + "\nRating: " + rating + "Milk Free: " + milkFree + 
-        "\nNo Caffeine: " + "Hot: " hot + "Calories: " + calories;
+        return "Name: " + name;
     }
 
 
