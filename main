@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+git clone https://github.com/T5750/poi.git
+cd poi
+
 public class Main {
     public static void main(String[] args) {
 
