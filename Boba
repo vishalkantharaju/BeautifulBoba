@@ -4,29 +4,23 @@ public class Boba {
 
     //parameters
     private String name;
-    private boolean vegan;
     private double medianPrice;
     private double distance;
     private double rating;
-    private boolean milkFree;
+    private boolean dairyFree;
     private boolean noCaffeine;
     private boolean hot;
     private int calories;
 
-    public Boba(String name, boolean vegan, double medianPrice, double distance, double rating, boolean milkFree, boolean noCaffeine, boolean hot, int calories) {
+    public Boba(String name, double medianPrice, double distance, double rating, boolean dairyFree, boolean noCaffeine, boolean hot, int calories) {
         this.name = name;
-        this.vegan = vegan;
         this.medianPrice = medianPrice;
         this.distance = distance;
         this.rating = rating;
-        this.milkFree = milkFree;
+        this.dairyFree = dairyFree;
         this.noCaffeine = noCaffeine;
         this.hot = hot;
         this.calories = calories;
-    }
-
-    public boolean getVegan() {
-        return vegan;
     }
 
     public double getMedianPrice() {
@@ -41,7 +35,7 @@ public class Boba {
         return rating;
     }
 
-    public boolean getMilkFree() {
+    public boolean getDairyFree() {
         return milkFree;
     }
 
