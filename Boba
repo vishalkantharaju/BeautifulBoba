@@ -7,20 +7,20 @@ public class Boba {
     private boolean vegan;
     private int medianPrice;
     private double distance;
-    private int numOptions;
     private double rating;
     private boolean milkFree;
     private boolean noCaffeine;
+    private boolean hot;
 
-    public Boba(String name, boolean vegan, int medianPrice, double distance, int numOptions, double rating, boolean milkFree, boolean noCaffeine) {
+    public Boba(String name, boolean vegan, int medianPrice, double distance, double rating, boolean milkFree, boolean noCaffeine, boolean hot) {
         this.name = name;
         this.vegan = vegan;
         this.medianPrice = medianPrice;
         this.distance = distance;
-        this.numOptions = numOptions;
         this.rating = rating;
         this.milkFree = milkFree;
         this.noCaffeine = noCaffeine;
+        this.hot = hot;
     }
 
 
