@@ -6,4 +6,4 @@ import BeautifulSoup4
 
 
 
-pring("boba is beautiful")
+print("boba is beautiful")
