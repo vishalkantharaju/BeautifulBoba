@@ -1,11 +1,10 @@
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
         ArrayList<Boba> shops = new ArrayList<Boba>();
-        ArrayList<Boba> sort;
+        ArrayList<Boba> sort = new ArrayList<>();
 
         for(int i = 0; i < shops.size(); i++) {
             sort.add(shops.get(i));
@@ -16,9 +15,9 @@ public class Main {
         double maxPrice = 10000.0; //
         double distance = -1.0; //
         double rating = -1.0;
-        boolean dairyFree; //
-        boolean noCaffeine; //
-        boolean hot; //
+        boolean dairyFree = true; //
+        boolean noCaffeine = true; //
+        boolean hot = true; //
 
         //System.out.println("Hello! Looking for a boba shop? \nWe can help you with that! 
         //Our program will help you narrow down which of the nearby boba shops are perfect for you, 
